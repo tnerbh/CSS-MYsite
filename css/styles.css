@@ -1,26 +1,56 @@
 
 body {
   margin: 0;
+  text-align: center;
+  /*font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif*/
 }
 
 h1{
   margin-top: 0;
+  font-family: 'Caveat', cursive;
 }
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Red Rose', cursive;
+
+*/
 
 /* **************************CLASS SELECTORS************************************/
 
 .top_box{
-  background-color: #dfd3c3;
+  background-color: #f0ece3;
+  position: relative;
+  padding-top: 100px
+
 }
 
 .middle_box{
   background-color: #c7b198;
-  height: 200px;
-  width:  200px;
+
 }
 
 .bottom_box{
-  background-color: #f0ece3;
-  height: 200px;
-  width:  200px;
+  background-color: #dfd3c3;
+
+}
+
+.top_cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom_cloud{
+  position: absolute;
+  left: 300px;
+  top: 300px;
 }
