@@ -6,16 +6,23 @@ body {
 }
 
 h1{
-  margin-top: 0;
+  margin-top: 50px auto 0 auto;
+  font-size: 5rem; /*em is 16px */
   font-family: 'Caveat', cursive;
+  color: #66BFBF;
+  line-height: 2;
 }
 
 h2{
+  font-size: 2.5rem; /*em is 16px */
   font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
 }
 
 h3{
   font-family: 'Open Sans', sans-serif;
+  color: #66BFBF;
 }
 /*
 font-family: 'Caveat', cursive;
@@ -28,21 +35,36 @@ font-family: 'Red Rose', cursive;
 /* **************************CLASS SELECTORS************************************/
 
 .top_box{
-  background-color: #f0ece3;
+/*  background-color: #f0ece3; */
+  /*background-color: #f9f7f7;  color plate 22272 */
+  background-color: #dbe2ef;   /*color plate 22272 */
   position: relative;
-  padding-top: 100px
+  padding-top: 100px;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
 .middle_box{
-  background-color: #c7b198;
+/*  background-color: #c7b198;*/
+/*  background-color: #dbe2ef; */
+background-color: #f9f7f7;   /*color plate 22272 */
+font-family: 'Open Sans', sans-serif;
 
 }
 
 .bottom_box{
   background-color: #dfd3c3;
+  font-family: 'Open Sans', sans-serif;
 
 }
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 
 .top_cloud{
   position: absolute;
@@ -53,4 +75,16 @@ font-family: 'Red Rose', cursive;
   position: absolute;
   left: 300px;
   top: 300px;
+}
+
+.productivity{
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+
+.processor{
+width: 20%;
+float: right;
+margin-left: 10px;
 }
